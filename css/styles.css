@@ -26,7 +26,6 @@
     background-color: #ffffff;
 }
 .container { 
-    width: 100%;
     max-width: 1158px;
     padding: 0 15px 0 15px;
   margin: 0 auto;
@@ -58,8 +57,6 @@
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     justify-content: space-between;
    }
 .header-nav {
@@ -85,6 +82,7 @@ margin-right: 76px;
     gap: 40px;
 }
 .header-list {
+    display: block;
     color: var(--primary-text);
     font-size: 16px;
     font-weight: 500;
@@ -266,7 +264,7 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 margin-bottom: 8px;
 }
-.team-item-text {
+.team-text {
     color: var(--secondary-text);
     text-align: center;
 font-size: 16px;
