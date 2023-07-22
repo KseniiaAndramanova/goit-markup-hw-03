@@ -93,8 +93,7 @@ margin-right: 76px;
 }
 .header-list:hover {
     color: var(--primary-link-color);
-    text-decoration: underline;
-}
+    }
 .header-list:focus {
     color: var(--primary-link-color);
 }
@@ -292,7 +291,7 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 display: inline-block; 
-margin-bottom: 16px; 
+margin-bottom: 17.5px;
 }
 .footer-logo-accent {
     color: var(--secondary-text-light);
@@ -304,7 +303,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
-margin-top: 17.5px;
 width: 264px;
 }
 
